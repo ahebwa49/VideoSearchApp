@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoList = () => {
+const VideoList = (props) => {
   return(
 
   );
