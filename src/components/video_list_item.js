@@ -5,3 +5,5 @@ const VideoListItem = () =>{
 
   )
 }
+
+export default VideoListItem;
