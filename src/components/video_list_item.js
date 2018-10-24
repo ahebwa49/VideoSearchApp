@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoListItem = () =>{
+const VideoListItem = ({video}) =>{
   return(
 
   )
