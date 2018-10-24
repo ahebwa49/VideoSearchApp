@@ -5,6 +5,8 @@ class App extends Component(){
   render(){
     return(
 
-    )
+    );
   }
-}
+};
+
+ReactDOM.render(<App />, document.querySelector('.container'));
