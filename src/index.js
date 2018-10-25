@@ -7,22 +7,22 @@ import VideoDetail from './components/video_detail';
 
 const API_KEY = 'AIzaSyCAfItybV7pSzxmwTj5wyG5SErMs5HYlRQ';
 
-class App extends Component(){
+class App extends Component{
   constructor(props){
     super(props);
 
     this.state = {videos: []};
 
     YTSearch({key: API_KEY, term: 'internet of things'}, (videos) => {
-      this.SetState({videos});
+      this.setState({videos});
     });
   }
-  render(){
-    return(
+  render() {
+    return (
           <div>
-          <SearchBar />
-          <VideoDetail video={this.state.videos[0]} />
-          <VideoList videos = {this.state.videos} />
+            <SearchBar />
+            <VideoDetail video={this.state.videos[0]} />
+            <VideoList videos = {this.state.videos} />
           </div>
     );
   }
