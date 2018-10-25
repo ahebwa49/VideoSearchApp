@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoListItem = ({video}) =>{
+const VideoListItem = ({video, onVideoSelect}) =>{
 
 const imgUrl = video.snippet.thumbnails.default.url;
 
