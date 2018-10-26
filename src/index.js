@@ -16,12 +16,15 @@ class App extends Component{
       selectedVideo: null
       };
 
-    YTSearch({key: API_KEY, term: 'internet of things'}, (videos) => {
+
+      });
+    });
+  }
+  videoSearch(term){
+    YTSearch({key: API_KEY, term: term}, (videos) => {
       this.setState({
         videos: videos,
         selectedVideo: videos[0]
-      });
-    });
   }
   render() {
     return (
