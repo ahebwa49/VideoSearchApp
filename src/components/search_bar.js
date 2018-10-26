@@ -14,6 +14,7 @@ class SearchBar extends Component{
     );
   }
   onInputChange(event){
+    this.setState({term});
   }
 };
 
