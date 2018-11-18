@@ -21,6 +21,7 @@ the following:
 ```
 > git clone https://github.com/ahebwa49/VideoSearchApp.git
 > cd VideoSearchApp
+
 > npm install
 > npm start
 ```
