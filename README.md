@@ -1,4 +1,4 @@
-# React video player
+# Video Search App
 
 This app will let you search videos from youtube using an API and let
 you select and play from the available list of fetched videos.
@@ -19,8 +19,8 @@ Clone this repo, install dependencies, then start the gulp process with
 the following:
 
 ```
-> git clone https://github.com/ahebwa49/react-video-player.git
-> cd react-video-player
+> git clone https://github.com/ahebwa49/VideoSearchApp.git
+> cd VideoSearchApp
 > npm install
 > npm start
 ```
